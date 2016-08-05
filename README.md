@@ -1,5 +1,5 @@
 # Kube2Consul
-Kube2Consul is a tool which registers Kubernetes headless services to Consul for service discovery with Consul, it steels some ideas from Kube-DNS. By default, Kubernetes uses Kube-proxy for service discovery on each node, sometimes if don’t need or want load-balancing and a single service IP provided by Kube-proxy, you can create “headless” services by specifying "None" for the cluster IP, and do service discovery with your any means, like HAProxy, Nignx, LVS or others. Kube2Consul can help you on this.
+Kube2Consul is a tool which registers Kubernetes headless services to Consul for service discovery with Consul, it steals some ideas from Kube-DNS. By default, Kubernetes uses Kube-proxy for service discovery on each node, sometimes if don’t need or want load-balancing and a single service IP provided by Kube-proxy, you can create “headless” services by specifying "None" for the cluster IP, and do service discovery with your any means, like HAProxy, Nignx, LVS or others. Kube2Consul can help you on this.
 
 # Build Kube2Consul
 Firstly you need git a copy of Kube2Consul to your desktop or local enviroment.
